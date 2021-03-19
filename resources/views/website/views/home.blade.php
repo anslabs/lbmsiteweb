@@ -7,7 +7,7 @@
 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" >
   	<div class="carousel-inner " >
 
-		@foreach($mgs as $mg)
+		@foreach($bgs as $mg)
 			<div class="carousel-item @if ($bg == reset($bgs)) active @endif w-100">
 				<img src="{{ asset('images/') }}/{{ $mg->image }}" class="d-block  w-100 img-fluid" alt="..." style="max-height: ;" >
 				<div class="carousel-caption d-none d-md-block">
