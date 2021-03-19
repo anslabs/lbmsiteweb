@@ -107,7 +107,7 @@ class HomeController extends Controller
         
         return view('website.views.services.vente',compact(['vehicles', 'marques']));
     }
-
+    
     public function location(){
         $bg = DB::table('location_images')->select("*")->orderBy('location_images.created_at', 'desc')->first();
 

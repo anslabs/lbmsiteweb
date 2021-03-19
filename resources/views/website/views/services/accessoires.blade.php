@@ -6,7 +6,7 @@
     <!-- Begin Page Content -->
 
 <main id="main">
-  <section id="accessoires-section-1" class="d-flex flex-column justify-content-center"  style=" background:#f5f8fd url('{{ asset('images/') }}/{{ '31.png' }}') center center no-repeat; background-size: cover;">
+  <section id="accessoires-section-1" class="d-flex flex-column justify-content-center"  style=" background:#f5f8fd url('{{ asset('images/') }}/{{ $bg->image }}') center center no-repeat; background-size: cover;">
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
       <!--h1 class="" syle="color:#1c54b2">Pièces et Accessoires d'origine!</h1-->
     </div>

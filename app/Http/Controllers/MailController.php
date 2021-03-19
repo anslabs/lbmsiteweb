@@ -37,7 +37,6 @@ class MailController extends Controller
             $message->cc("ibanjun@lesbagnoles.com", "LBM Réservation");
             $message->cc("dg@lesbagnoles.com", "LBM Réservation");
             $message->cc("ebonou@lesbagnoles.com", "LBM Réservation");
-            $message->cc("kadersaka@gmail.com", "LBM Réservation");
         });
         return redirect()->back()->with('success', 'Email envoyé'); 
    }
@@ -64,7 +63,6 @@ class MailController extends Controller
             $message->cc("ibanjun@lesbagnoles.com", "LBM Info");
             $message->cc("dg@lesbagnoles.com", "LBM Info");
             $message->cc("ebonou@lesbagnoles.com", "LBM Info");
-            $message->cc("kadersaka@gmail.com", "Test from ANS LABS");
 
 
 
