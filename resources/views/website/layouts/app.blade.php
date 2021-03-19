@@ -111,7 +111,7 @@
               <li><a href="{{ url('/services/location') }}">Location automobile</a></li>
             </ul>
           </li>
-          <li><a href="{{ url('/#medias') }}">Actualité</a></li>
+          <!--li><a href="{{ url('/#medias') }}">Actualité</a></li-->
           <li><a target="_blank" href="https://web.facebook.com/fondationlbm/">Fondation LBM</a></li>
           <li><a href="{{ url('/services/accessoireautomobile') }}">Accessoires Automobile</a></li>
           <!--li><a href="https://canalcombenin.com" target="_blank">Régie publicitaire</a></li-->
@@ -119,6 +119,7 @@
           <!--li><a href="{{ url('/services/accessoireautomobile') }}">Accessoires Automobile</a></li-->
 
           <li><a href="#footer">Contacts</a></li>
+          <li class=""><a href="{{ url('/admin') }}">Admin</a></li>
         </ul>
       </nav><!-- .main-nav-->
 
