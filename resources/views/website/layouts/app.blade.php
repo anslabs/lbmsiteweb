@@ -86,7 +86,7 @@
         <img class="img-fluid" style="max-height:90px;" src="{{ asset('images/') }}/{{ 'logo0.png' }}"/>
       </div>
       <div class="d-flex align-items-center">
-        <span id="canalcomfont" class=" text-white ml-3" style=" font-size:2rem; font-style: italic;">Première société automobile certifiée ISO 9001 au Bénin</span>
+        <span id="" class=" text-white ml-3" style=" font-size:2rem; font-style: italic;">Première société automobile certifiée ISO 9001 au Bénin</span>
       </div>
         <!--div class="contact-info mr-auto">
           <img class="img-fluid" style="max-height:90px;" src="{{ asset('images/') }}/{{ 'logo0.png' }}"/>
@@ -138,7 +138,19 @@
 
   </header><!-- End Header -->
 
+  <!-- print success message after file upload 001  -->
+  @if(Session::has('success'))
 
+  <div class="alert alert-success alert-dismissible fade show" role="alert">
+      {{ Session::get('success') }}
+      @php
+      Session::forget('success');
+      @endphp
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+      </button>
+  </div>
+    @endif
 
   @yield('content')
  
