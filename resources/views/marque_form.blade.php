@@ -53,7 +53,7 @@
 
                         <div class="form-group" {{ $errors->has('marqueurlpath') ? 'has-error' : '' }}>
                             <label for="marqueurlpath">Site web du constructeur au Bénin</label>
-                            <input type="url" class="form-control" id="marqueurlpath" name="marqueurlpath" aria-describedby="modelHelp" placeholder="Site web " required>
+                            <input type="url" class="form-control" id="marqueurlpath" name="marqueurlpath" aria-describedby="modelHelp" placeholder="Site web " >
                             <span class="text-danger"> {{ $errors->first('marqueurlpath') }}</span>
                         </div>
 
