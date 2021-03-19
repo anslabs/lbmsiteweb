@@ -5,48 +5,17 @@
 @section('content')
     
 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" >
-  <div class="carousel-inner " >
-    <div class="carousel-item active w-100">
-      <img src="{{ asset('images/') }}/{{ '500.jpg' }}" class="d-block  w-100 img-fluid" alt="..." style="max-height: ;" >
-      <div class="carousel-caption d-none d-md-block">
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="{{ asset('images/') }}/{{ '501.jpg' }}" class=" d-block  w-100 img-fluid" alt="..." >
-      <div class="carousel-caption d-none d-md-block">
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="{{ asset('images/') }}/{{ '502.jpg' }}" class=" d-block  w-100 img-fluid" alt="..." >
-      <div class="carousel-caption d-none d-md-block">
-      </div>
+  	<div class="carousel-inner " >
+
+		@foreach($mgs as $mg)
+			<div class="carousel-item @if ($bg == reset($bgs)) active @endif w-100">
+				<img src="{{ asset('images/') }}/{{ $mg->image }}" class="d-block  w-100 img-fluid" alt="..." style="max-height: ;" >
+				<div class="carousel-caption d-none d-md-block">
+				</div>
+			</div>	
+		@endforeach	
+
 	</div>
-	<div class="carousel-item">
-      <img src="{{ asset('images/') }}/{{ '503.jpg' }}" class=" d-block  w-100 img-fluid" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-      </div>
-	</div>
-	<div class="carousel-item">
-      <img src="{{ asset('images/') }}/{{ '504.jpg' }}" class=" d-block  w-100 img-fluid" alt="..." >
-      <div class="carousel-caption d-none d-md-block">
-      </div>
-	</div>
-	<div class="carousel-item">
-		<img src="{{ asset('images/') }}/{{ '505.jpg' }}" class=" d-block  w-100  img-fluid" alt="..." >
-		<div class="carousel-caption d-none d-md-block">
-		</div>
-	</div>
-	<div class="carousel-item">
-		<img src="{{ asset('images/') }}/{{ '506.jpg' }}" class=" d-block  w-100  img-fluid" alt="..." >
-		<div class="carousel-caption d-none d-md-block">
-		</div>
-	</div>
-	<div class="carousel-item">
-		<img src="{{ asset('images/') }}/{{ '507.jpg' }}" class=" d-block  w-100  img-fluid" alt="..." >
-		<div class="carousel-caption d-none d-md-block">
-		</div>
-	</div>
-</div>
   <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>

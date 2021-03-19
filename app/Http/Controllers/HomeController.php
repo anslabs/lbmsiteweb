@@ -47,7 +47,7 @@ class HomeController extends Controller
         //12 dernières voitures
         //toutes les marques
         //image bg section 1
-        $bg = DB::table('accueil_images')->select("*")->orderBy('accueil_images.created_at', 'desc')->first();
+        $bgs = DB::table('accueil_images')->select("*")->orderBy('accueil_images.created_at', 'desc')->first();
 
         $marques = DB::table('marques')->select("*")->get();
         
@@ -57,7 +57,7 @@ class HomeController extends Controller
         ->limit(8)
         ->get();
         
-        return view('website.views.home',compact(['new_vehicles','bg', 'marques']));
+        return view('website.views.home',compact(['new_vehicles','bgs', 'marques']));
     }
 
     public function vehicledetail($id)
