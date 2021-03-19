@@ -107,8 +107,8 @@ class HomeController extends Controller
         
         return view('website.views.services.vente',compact(['vehicles', 'marques']));
     }
-    public function location()
-    {
+
+    public function location(){
         $bg = DB::table('location_images')->select("*")->orderBy('location_images.created_at', 'desc')->first();
 
         $marques = DB::table('marques')->select("*")->get();
@@ -120,6 +120,7 @@ class HomeController extends Controller
         
         return view('website.views.services.location',compact(['vehicles', 'marques', 'bg']));
     }
+
     public function sav()
     {
         $bg = DB::table('sav_images')->select("*")->orderBy('sav_images.created_at', 'desc')->first();

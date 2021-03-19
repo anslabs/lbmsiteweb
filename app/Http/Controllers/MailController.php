@@ -32,12 +32,12 @@ class MailController extends Controller
         Mail::send('emails.maillocation', $data, function($message) use($request){
             $message->to('reservation@lesbagnoles.com', 'Réservation LBM Location')->subject ("Réservation de voiture");
             $message->from("canalcombenin@gmail.com", $request->input('nom'));
-            $message->cc("contacts@lesbagnoles.com", "LBM");
+            $message->cc("contacts@lesbagnoles.com", "LBM Réservation");
             $message->cc("cgansey@lesbagnoles.com", "LBM Réservation");
             $message->cc("ibanjun@lesbagnoles.com", "LBM Réservation");
-            $message->cc("dg@lesbagnoles.com", "LBM Info");
-            $message->cc("ebonou@lesbagnoles.com", "LBM Info");
-
+            $message->cc("dg@lesbagnoles.com", "LBM Réservation");
+            $message->cc("ebonou@lesbagnoles.com", "LBM Réservation");
+            $message->cc("kadersaka@gmail.com", "LBM Réservation");
         });
         return redirect()->back()->with('success', 'Email envoyé'); 
    }
