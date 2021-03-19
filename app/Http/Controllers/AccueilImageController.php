@@ -14,7 +14,8 @@ class AccueilImageController extends Controller
      */
     public function index()
     {
-        return view('accueil_image_form');
+        $images =  AccueilImage::orderBy('id', 'asc')->get();
+        return view('imagesaccueil',compact('images'));
     }
 
     /**
@@ -24,7 +25,7 @@ class AccueilImageController extends Controller
      */
     public function create()
     {
-        //
+        return view('accueil_image_form');
     }
 
     /**
@@ -90,8 +91,11 @@ class AccueilImageController extends Controller
      * @param  \App\AccueilImage  $accueilImage
      * @return \Illuminate\Http\Response
      */
-    public function destroy(AccueilImage $accueilImage)
+    public function destroy($id)
     {
-        //
+        $event = AccueilImage::find($id);
+        $event->delete();
+        return back()->with("success", "Marque supprimée avec succès");
+
     }
 }
