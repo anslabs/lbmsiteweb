@@ -5,7 +5,7 @@
 @section('content')
     <!-- Begin Page Content -->
 <main id="main">
-  <section id="sav-section-1" class="d-flex flex-column justify-content-center"  style=" background:#f5f8fd url('{{ asset('images/') }}/{{ '30.png' }}') center top no-repeat; background-size: cover;">
+  <section id="sav-section-1" class="d-flex flex-column justify-content-center"  style=" background:#f5f8fd url('{{ asset('images/') }}/{{ $bg->image }}') center top no-repeat; background-size: cover;">
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
       <!--h1 class=""   syle="font-size: 4rem; color:#1c54b2">LBM SAV:  Efficacité et professionnalisme!</h1-->
     </div>
