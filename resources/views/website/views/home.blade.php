@@ -84,7 +84,7 @@
 				@foreach($marques as $marque)
 
 				<div class="col-md-6 col-lg-3 mb-5">
-					<a href="@if($marque->marqueurlpath == null || $marque->marqueurlpath =="") {{ url('services/vente/') }} {{ $marque->id }} @else {{ $marque->marqueurlpath }} @endif">
+					<a href="@if($marque->marqueurlpath == null || $marque->marqueurlpath =="") {{ url('services/vente/') }}/{{ $marque->id }} @else {{ $marque->marqueurlpath }} @endif">
 
 					<div class="card border-0">
 						<img class="card-img-top" src="{{ asset('marques/') }}/{{ $marque->logo }}" />
@@ -96,113 +96,8 @@
 					</a>
 				</div>
 				 
-				@endforeach
-
-				<!--div class="col-md-6 col-lg-3 mb-5">
-					<a href="#">
-
-					<div class="card border-0">
-						<img class="card-img-top" src="{{ asset('marques/') }}/{{ 'bmw.jpg' }}" />
-						<div class="card-body">
-							<h5 class="card-title"><strong>BMW</strong></h5>
-							<p class="card-text small">Le plaisir de conduire</p>
-						</div>
-					</div>
-					</a>
-				</div>
-
-				<div class="col-md-6 col-lg-3 mb-5">
-					<a href="https://www.ford.bj/fr/" target="_blank">
-						<div class="card border-0">
-							<img class="card-img-top" src="{{ asset('marques/') }}/{{ 'ford.jpg' }}" />
-							<div class="card-body">
-								<h5 class="card-title"><strong>FORD</strong></h5>
-								<p class="card-text small">Aller toujours plus loin</p>
-							</div>
-						</div>
-					</a>
-				</div>
-
-				<div class="col-md-6 col-lg-3 mb-5">
-					<a href="#">
-					<div class="card border-0">
-						<img class="card-img-top" src="{{ asset('marques/') }}/{{ 'chevrolet.jpg' }}" />
-						<div class="card-body">
-							<h5 class="card-title"><strong>CHEVROLET</strong></h5>
-							<p class="card-text small">Découvrez de nouveaux horizons </p>
-
-						</div>
-					</div>
-					</a>
-				</div>
-
-				<div class="col-md-6 col-lg-3 mb-5">
-					<a href="#">
-					<div class="card border-0">
-						<img class="card-img-top" src="{{ asset('marques/') }}/{{ 'isuzu.jpg' }}" />
-						<div class="card-body">
-							<h5 class="card-title"><strong>ISUZU</strong></h5>
-							<p class="card-text small">Vous avez ma parole</p>
-
-						</div>
-					</div>
-					</a>
-				</div>
-
-				<div class="col-md-6 col-lg-3 mb-5">
-					<a href="#">
-					<div class="card border-0">
-						<img class="card-img-top" src="{{ asset('marques/') }}/{{ 'isuzutruck.jpg' }}" />
-						<div class="card-body">
-							<h5 class="card-title"><strong>ISUZU TRUCK</strong></h5>
-							<p class="card-text small">Chargez davantage</p>
-
-						</div>
-					</div>
-					</a>
-				</div>
-
-				<div class="col-md-6 col-lg-3 mb-5">
-					<a href="#">
-					<div class="card border-0">
-						<img class="card-img-top" src="{{ asset('marques/') }}/{{ 'landrover.jpg' }}" />
-						<div class="card-body">
-							<h5 class="card-title"><strong>LAND ROVER</strong></h5>
-							<p class="card-text small">Franchir de nouveaux horizons</p>
-
-						</div>
-					</div>
-					</a>
-				</div>
-
-				<div class="col-md-6 col-lg-3 mb-5">
-					<a href="#">
-					<div class="card border-0">
-						<img class="card-img-top" src="{{ asset('marques/') }}/{{ 'jaguar.jpg' }}" />
-						<div class="card-body">
-							<h5 class="card-title"><strong>JAGUAR</strong></h5>
-							<p class="card-text small">Ne le rêve pas. Conduit-le.
-							</p>
-
-						</div>
-					</div>
-					</a>
-				</div>
-
-				<div class="col-md-6 col-lg-3 mb-5">
-					<a href="#">
-					<div class="card border-0">
-						<img class="card-img-top" src="{{ asset('marques/') }}/{{ 'scania.jpg' }}" />
-						<div class="card-body">
-							<h5 class="card-title"><strong>SCANIA</strong></h5>
-							<p class="card-text small">Le Roi de la route</p>
-
-						</div>
-					</div>
-					</a>
-				</div-->	
-		
-				</div>
+				@endforeach		
+			</div>
 
 
 			</div>
