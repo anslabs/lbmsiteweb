@@ -36,7 +36,6 @@
          
           @foreach($images as $event)
           <tr>
-            <td>{{ $event->name }}</td>
             <td><img src="{{ asset('images/') }}/{{ $event->image }}" class="img-responsive" style="max-height:100px; max-width:100px;"/></td>
             <td> 
                 <a class="btn btn-info disabled" href="{{ route('accueilimage.show', $event->id) }}">Ouvrir</a>
