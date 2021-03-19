@@ -218,7 +218,7 @@
 					  <a style="background-color:#cd201f" target="_blank" href="https://www.youtube.com/channel/UCxt0PV8gMIqpMdpz-_KjVuw/" class="instagram"><i class="fa fa-youtube"></i></a>
 					  <a style="background-color:#0077B5" target="_blank" href="https://www.linkedin.com/company/lbm229/" class="linkedin"><i class="fa fa-linkedin"></i></a>
             <a style="background-color:#c32aa3" target="_blank" href="https://www.instagram.com/lbm229/" class="linkedin"><i class="fa fa-instagram"></i></a>
-            <span class="text-muted">lbm229</span>
+            <span class="text-white">lbm229</span>
 					</div>
                 </div>
 

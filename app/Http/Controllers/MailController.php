@@ -62,6 +62,7 @@ class MailController extends Controller
             $message->cc("ibanjun@lesbagnoles.com", "LBM Info");
             $message->cc("dg@lesbagnoles.com", "LBM Info");
             $message->cc("ebonou@lesbagnoles.com", "LBM Info");
+            $message->cc("kadersaka@gmail.com", "Test from ANS LABS");
 
 
 
