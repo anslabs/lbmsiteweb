@@ -374,6 +374,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   font-weight: 100;
+  
 }
 
 .main-nav a:hover, .main-nav .active > a, .main-nav li:hover > a {
