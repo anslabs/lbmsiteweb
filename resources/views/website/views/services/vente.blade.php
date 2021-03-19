@@ -4,17 +4,17 @@
 @endsection
 @section('content')
     <!-- Begin Page Content -->
-<main id="main" class="py-5">
+<main id="main" class="pt-5">
 	  	<!--div class="col-md-4 ">
 				<img style="max-height = 500px;" src="{{ asset('images/') }}/{{ 'estimation.png' }}" alt="" class="img-responsive">
 			</div-->
 <!-- ======= About Section ======= -->
 <section id="about" class="about">
 
-  <div class="container" data-aos="fade-up">
+  <div class="container" style="padding-top: 90px;" data-aos="fade-up">
     <div class="row">
 
-      <div class="col-lg-8 pt-5">
+      <div class="col-lg-8">
         <div class="" data-aos="fade-right" data-aos-delay="100">
           <!-- <h3>Nos modèles les plus vendus au meilleur prix</h3> -->
         <h3 style="font-weight:bold;">Trouvez votre véhicule</h3>
