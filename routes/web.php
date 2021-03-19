@@ -50,6 +50,7 @@ Route::resource('venteimage', 'VenteImageController');
 Route::resource('vehicule', 'VehiculeController');
 Route::resource('location', 'LocationController');
 Route::resource('marque', 'MarqueController');
+Route::get('/admin', 'AdminController@index')->name('admin')->middleware('auth');
 
 //Route::post('newsletter','NewsletterController@store');
 /*
