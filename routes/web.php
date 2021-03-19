@@ -24,6 +24,7 @@ Route::get('/home', 'HomeController@index')->name('home')->middleware('auth');
 
 ///email
 Route::post('sendContact', 'MailController@html_email');
+Route::post('apiSuscribed', 'NewsletterController@apiSuscribe');
 Route::post('bookCar', 'MailController@bookCar');
 
 

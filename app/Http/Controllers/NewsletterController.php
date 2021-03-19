@@ -28,7 +28,9 @@ class NewsletterController extends Controller
 
         $listId = "a96dbdd3b3";
         if(Mailchimp::check($listId, $request->email)){
-             print("true");
+             //print("true");
+             return redirect()->back()->with('success', 'Vous êtes déjà inscrit à nàotre liste dediffusion');
+
         }
         else{
            // print("false");
@@ -36,6 +38,8 @@ class NewsletterController extends Controller
                      Mailchimp::subscribe($listId,  $request->email, $merge = [], $confirm = true);
                      // Use $confirm = false to skip double-opt-in if you already have permission.
                      // This method will update an existing subscriber and will not ask an existing subscriber to re-confirm.
+                     return redirect()->back()->with('success', 'Vous avez été enregistré à notre liste de diffusion');
+
          
         }
     }

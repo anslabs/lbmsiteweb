@@ -8,6 +8,8 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use App\Notifiable;
 
+use Newsletter;
+use Mailchimp;
 
 class MailController extends Controller
 {
@@ -71,5 +73,27 @@ class MailController extends Controller
         // return redirect()->back()->with('success', 'Email envoyé'); 
         echo "success";
      }
+
+     public function apiSuscribe(Request $request){
+        $validator      =   Validator::make($request->all(),
+        [
+            'email'      =>   'required',
+            
+        ]);
+
+        $listId = "a96dbdd3b3";
+        if(Mailchimp::check($listId, $request->email)){
+             print("true");
+        }
+        else{
+           // print("false");
+                     // Adds/updates an existing subscriber:
+                     Mailchimp::subscribe($listId,  $request->email, $merge = [], $confirm = true);
+                     // Use $confirm = false to skip double-opt-in if you already have permission.
+                     // This method will update an existing subscriber and will not ask an existing subscriber to re-confirm.
+         
+        }
+    }
+
 
 }
