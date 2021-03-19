@@ -370,10 +370,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   padding: 10px 0;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 15px;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 100;
 }
 
 .main-nav a:hover, .main-nav .active > a, .main-nav li:hover > a {

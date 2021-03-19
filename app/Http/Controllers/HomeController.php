@@ -47,7 +47,7 @@ class HomeController extends Controller
         //12 dernières voitures
         //toutes les marques
         //image bg section 1
-        $bgs = DB::table('accueil_images')->select("*")->orderBy('accueil_images.created_at', 'desc')->get();
+        $bgs = DB::table('accueil_images')->select("*")->orderBy('accueil_images.created_at', 'asc')->get();
 
         $marques = DB::table('marques')->select("*")->get();
         
