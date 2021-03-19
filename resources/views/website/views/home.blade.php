@@ -88,8 +88,6 @@
 						<div class="card-body">
 							<h5 class="card-title"><strong>BMW</strong></h5>
 							<p class="card-text small">Le plaisir de conduire</p>
-							<p class="small muted"><a href="https://www.ford.bj">Ford Bénin</a></p>
-
 						</div>
 					</div>
 					</a>

@@ -39,7 +39,7 @@
           @foreach($marques as $event)
           <tr>
             <td>{{ $event->name }}</td>
-            <td><img src="http://127.0.0.1:8000/marques/{{ $event->logo }}" class="img-responsive" style="max-height:50px; max-width:50px;"/></td>
+            <td><img src="{{ asset('marques/') }}/{{ $event->logo }}" class="img-responsive" style="max-height:50px; max-width:50px;"/></td>
             <td> 
                 <a class="btn btn-info disabled" href="{{ route('marque.show', $event->id) }}">Ouvrir</a>
             </td>
