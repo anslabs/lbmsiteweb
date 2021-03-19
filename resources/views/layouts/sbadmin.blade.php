@@ -68,21 +68,10 @@
         </a>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Administration des pages</h6>
-
-            <li class="nav-item">
-              <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseCarrousels" aria-expanded="true" aria-controls="collapseCarrousels">
-                <i class="fas fa-fw fa-folder"></i>
-                <span>Carousels page d'accueil</span>
-              </a>
-              <div id="collapseCarrousels" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
-                <div class="bg-white py-2 collapse-inner rounded">
-                  <a class="collapse-item" href="{{ url('/accueilimage/create') }}">Ajouter</a>
-                  <a class="collapse-item" href="{{ url('/accueilimage') }}">Gérer</a>
-                </div>
-              </div>
-            </li>
-
+            <h6 class="collapse-header">Administration page d'accueil</h6>
+            <a class="collapse-item" href="{{ url('/accueilimage/create') }}">Ajouter une image carrousel</a>
+            <a class="collapse-item" href="{{ url('/accueilimage') }}">Gérer les images carrousels</a>
+            <h6 class="collapse-header">Administration des autres pages</h6>
             <!--a class="collapse-item" href="{{ url('/accueilimage/') }}">Page d'Accueil</a-->
             <a class="collapse-item" href="{{ url('/aproposimage/') }}">Page Apropos</a>
             <a class="collapse-item" href="{{ url('/accessoiresimage/') }}">Page Accessoires</a>
