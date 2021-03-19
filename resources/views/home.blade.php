@@ -1,6 +1,6 @@
 @extends('layouts.sbadmin') 
 @section('title')
-    {{ __('Evénements') }}
+    {{ __('Accueil - Admin') }}
 @endsection
 @section('content')
     <!-- Begin Page Content -->

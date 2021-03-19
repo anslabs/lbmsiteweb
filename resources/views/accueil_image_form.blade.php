@@ -11,7 +11,7 @@
                 <div class="card shadow">
                     <div class="card-header bg-primary text-white">
                         <div class="card-title ">
-                            <h4>Image  Section 1 Accueil</h4>
+                            <h4>Images carrousel</h4>
                         </div>
                     </div>
                     <div class="card-body">
