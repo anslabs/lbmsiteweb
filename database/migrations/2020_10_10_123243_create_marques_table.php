@@ -17,6 +17,8 @@ class CreateMarquesTable extends Migration
             $table->bigIncrements('id');
             $table->string('name');
             $table->string('logo');
+            $table->string('slogan');
+            $table->string('marqueurlpath')->nullable();
             $table->timestamps();
         });
     }

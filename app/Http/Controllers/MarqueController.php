@@ -58,6 +58,8 @@ class MarqueController extends Controller
         $videoSectionUn  = new Marque;
         $videoSectionUn->logo = $path;
         $videoSectionUn->name = $request->name;
+        $videoSectionUn->slogan = $request->slogan;
+        $videoSectionUn->marqueurlpath = $request->marqueurlpath;
         $videoSectionUn->save();
             return redirect()->back()->with('success', 'Enregistrer');
       
@@ -118,6 +120,8 @@ class MarqueController extends Controller
         } 
 
         $event->name = $request->input('name');
+        $event->slogan = $request->input('slogan');
+        $event->marqueurlpath = $request->input('marqueurlpath');
         $event->save();
         
         return back()->with("success", "Marque mise à jour avec succès");

@@ -80,7 +80,25 @@
 			  	</header-->
 			
 			<div class="row">
+         
+				@foreach($marques as $marque)
+
 				<div class="col-md-6 col-lg-3 mb-5">
+					<a href="@if($marque->marqueurlpath == null || $marque->marqueurlpath =="") {{ url('services/vente/') }} {{ $marque->id }} @else {{ $marque->marqueurlpath }} @endif">
+
+					<div class="card border-0">
+						<img class="card-img-top" src="{{ asset('marques/') }}/{{ $marque->logo }}" />
+						<div class="card-body">
+							<h5 class="card-title text-uppercase"><strong>{{ $marque->name }}</strong></h5>
+							<p class="card-text small text-capitalize">{{ $marque->slogan }}</p>
+						</div>
+					</div>
+					</a>
+				</div>
+				 
+				@endforeach
+
+				<!--div class="col-md-6 col-lg-3 mb-5">
 					<a href="#">
 
 					<div class="card border-0">
@@ -182,7 +200,7 @@
 						</div>
 					</div>
 					</a>
-				</div>	
+				</div-->	
 		
 				</div>
 

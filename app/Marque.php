@@ -8,7 +8,7 @@ class Marque extends Model
 {
     // 
     protected $fillable = [
-        'name', 'logo'
+        'name', 'logo', 'slogan', 'marqueurlpath'
     ];
 
 

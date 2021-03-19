@@ -38,13 +38,27 @@
                         </div>
 
                         <div class="form-group" {{ $errors->has('image') ? 'has-error' : '' }}>
-                                <label for="image">Image</label>
-                                <input type="file" name="image" id="image" class="form-control" required accept=".png, .jpg, .jpeg">
-                                <span class="text-danger"> {{ $errors->first('image') }}</span>
+                            <label for="image">Image</label>
+                            <input type="file" name="image" id="image" class="form-control" required accept=".png, .jpg, .jpeg">
+                            <span class="text-danger"> {{ $errors->first('image') }}</span>
                         </div>  
 
 
-                        <div class="card-footer">
+                        <div class="form-group" {{ $errors->has('slogan') ? 'has-error' : '' }}>
+                            <label for="slogan">Slogan</label>
+                            <input type="text" class="form-control" id="slogan" name="slogan" aria-describedby="modelHelp" placeholder="slogan" required>
+                            <span class="text-danger"> {{ $errors->first('slogan') }}</span>
+                        </div>
+
+
+                        <div class="form-group" {{ $errors->has('marqueurlpath') ? 'has-error' : '' }}>
+                            <label for="marqueurlpath">Site web du constructeur au Bénin</label>
+                            <input type="url" class="form-control" id="marqueurlpath" name="marqueurlpath" aria-describedby="modelHelp" placeholder="Site web " required>
+                            <span class="text-danger"> {{ $errors->first('marqueurlpath') }}</span>
+                        </div>
+
+
+                <div class="card-footer">
                             <div class="form-group">
                                 <button type="submit" class="btn btn-primary btn-md"> Enregistrer </button>
                             </div>
