@@ -119,9 +119,10 @@
           <!--li><a href="{{ url('/services/accessoireautomobile') }}">Accessoires Automobile</a></li-->
 
           <li><a href="#footer">Contacts</a></li>
-          <li class=""><a href="{{ url('/admin') }}">Admin</a></li>
+          <li class=""><a href="{{ url('/admin') }}" target="_blank">Admin</a></li>
+          <li class=""><a href="https://vps47794.lws-hosting.com/webmail" target="_blank">Webmail</a></li>
         </ul>
-      </nav><!-- .main-nav-->
+      </nav><!--  .main-nav-->
 
     </div>
   </header><!-- End Header -->
