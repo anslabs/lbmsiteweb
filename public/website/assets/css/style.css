@@ -2324,7 +2324,7 @@ section {
 }
 .booking_form_inputs > div
 {
-	width: calc((100% - 27px) / 4);
+	width: calc((100% - 27px) / 5);
 }
 .booking_form_inputs > div > input
 {

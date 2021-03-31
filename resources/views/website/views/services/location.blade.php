@@ -30,7 +30,7 @@
   </section><!-- End Hero -->
 
     
-  <div class="container">
+  <div class="container-fluid">
 			<div class="row">
 				<div class="col">
 					<div class="booking_container d-flex flex-row align-items-end justify-content-start">
@@ -41,6 +41,10 @@
 									<div class=""><input name="nom" type="text" class=" booking_input booking_input_a booking_in" placeholder="Nom Prénom" required="required"></div>
 									<div class="">
 										<input name="tel" type="phone" class="booking_input booking_input_a booking_out" placeholder="Téléphone" required="required">	
+									</div>
+									
+									<div class="">
+										<input name="email" type="email" class="booking_input booking_input_a booking_out" placeholder="Email" required="required">	
 									</div>
 									
 									<div class="">

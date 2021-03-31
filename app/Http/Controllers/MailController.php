@@ -19,6 +19,7 @@ class MailController extends Controller
         [
             'nom'         =>   'required',
             'tel'        =>   'required',
+            'email'        =>   'required',
             'days'     =>   'required',
             'vehicule'     =>   'required',
         ]);
@@ -28,10 +29,11 @@ class MailController extends Controller
         return back()->withErrors($validator->errors());
     }
 
-        $data = array('nom'=> $request->input('nom'), "tel" => $request->input('tel'), "days" => $request->input('days'), "vehicule" => $request->input('vehicule'));
+        $data = array('nom'=> $request->input('nom'), "tel" => $request->input('tel'), "email" => $request->input('email'), "days" => $request->input('days'), "vehicule" => $request->input('vehicule'));
         Mail::send('emails.maillocation', $data, function($message) use($request){
             $message->to('reservation@lesbagnoles.com', 'Réservation LBM Location')->subject ("Réservation de voiture");
             $message->from("canalcombenin@gmail.com", $request->input('nom'));
+            $message->replyTo($request->input('email'), $request->input('nom'));
             $message->cc("contacts@lesbagnoles.com", "LBM Réservation");
             $message->cc("cgansey@lesbagnoles.com", "LBM Réservation");
             $message->cc("ibanjun@lesbagnoles.com", "LBM Réservation");
@@ -59,6 +61,7 @@ class MailController extends Controller
         Mail::send('emails.mail', $data, function($message) use($request){
             $message->to('contacts@lesbagnoles.com', 'LBM')->subject ($request->input('subject'));
             $message->from($request->input('mail'), $request->input('nom'));
+            $message->replyTo($request->input('mail'), $request->input('nom'));
             $message->cc("info@canalcombenin.com", "CanalCom");
             $message->cc("ibanjun@lesbagnoles.com", "LBM Info");
             $message->cc("dg@lesbagnoles.com", "LBM Info");
