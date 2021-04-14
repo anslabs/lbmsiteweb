@@ -146,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar.topbar-scrolled {
-  top: -110px;
+  top: -90px;
 }
 
 #topbar .social-links a {
@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
-  top: 110px;
+  top: 90px;
 }
 
 #header.header-transparent {

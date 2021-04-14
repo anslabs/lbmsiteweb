@@ -1,6 +1,6 @@
 @extends('website.layouts.app') 
 @section('title')
-    {{ __('A proposd de LBM | Site web officiel') }}
+    {{ __('A propos de LBM | Site web officiel') }}
 @endsection
 @section('content')
     <!-- Begin Page Content -->

@@ -82,11 +82,15 @@
   </div-->
   <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top">
     <div class="container d-flex ">
-      <div class="">
+      <div class="d-flex pr-3">
         <img class="img-fluid" style="max-height:90px;" src="{{ asset('images/') }}/{{ 'logo0.png' }}"/>
       </div>
       <div class="d-flex align-items-center">
-        <span id="" class=" text-white ml-3" style=" font-size:2rem; font-style: italic;">Première société automobile certifiée ISO 9001 au Bénin</span>
+        <div class="row">
+          <span id="" class=" text-white ml-3" style="letter-spacing: 3px; font-size: x-large; font-style: italic;">Notre passion vous transporte</span>
+          <span id="" class=" text-white ml-3" style="letter-spacing: 3px; font-size: x-large; font-style: italic;">Première société automobile certifiée ISO 9001 au Bénin</span>
+  
+        </div>
       </div>
         <!--div class="contact-info mr-auto">
           <img class="img-fluid" style="max-height:90px;" src="{{ asset('images/') }}/{{ 'logo0.png' }}"/>
@@ -217,8 +221,8 @@
 					  <a href="https://canalcombenin.com" target="_blank"><h4>Service communication</h4></a>
 					  <p>Scoa-Gbéto, carrefour LBM <br>
               01 bp 7144 Cotonou, Bénin<br> 
-						<strong>Tél:</strong> +229 21300050 - 95160002<br>
-						<strong>Email:</strong>communication@canalcombenin.com<br>
+						<strong>Tél:</strong> +229 21300050 - 95953210<br>
+						<strong>Email:</strong>communication@lesbagnoles.com<br>
 					  </p>
 					</div>
         </div>

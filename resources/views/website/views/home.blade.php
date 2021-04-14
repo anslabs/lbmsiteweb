@@ -209,7 +209,7 @@
 	
 					<div id="DivOurProducts" class="row">
 
-								<div class="col-lg-4 col-md-6 clearfix px-0">
+								<!--div class="col-lg-4 col-md-6 clearfix px-0">
 									<a href="{{ url('/services/location') }}" class="text-white ">
 										<div class="fixOverlayDiv clearfix">
 											<img alt="offer banner1" class="category-banner img-fluid" src="{{ asset('images/') }}/{{ 's-2-l.jpg' }}">
@@ -221,9 +221,9 @@
 											</div>
 										</div>
 									</a>
-								</div>
+								</div-->
 
-								<div class="col-lg-4 col-md-6 clearfix px-0">
+								<div class="col-lg-6 col-md-6 clearfix px-0">
 									<a href="{{ url('/services/sav') }}" class="text-white ">
 										<div class="fixOverlayDiv">
 											<img alt="offer banner1" class="category-banner img-fluid" src="{{ asset('images/') }}/{{ 's-3-0-l.jpg' }}">
@@ -237,7 +237,7 @@
 									</a>
 								</div>
 
-								<div class="col-lg-4 col-md-6 clearfix px-0">
+								<div class="col-lg-6 col-md-6 clearfix px-0">
 									<a href="{{ url('/services/vente') }}" class="text-white">
 										<div class="fixOverlayDiv clearfix">
 											<img alt="offer banner1" class="category-banner img-fluid" src="{{ asset('images/') }}/{{ 's-1-l.jpg' }}">
@@ -257,7 +257,20 @@
 
 				<div class="container-fluid  " >
 					<div class="row ">
-						<div class="clearfix col-lg-4 col-md-6 px-0">
+						<div class="col-lg-4 col-md-6 clearfix px-0">
+							<a href="{{ url('/services/location') }}" class="text-white ">
+								<div class="fixOverlayDiv clearfix">
+									<img alt="offer banner1" class="category-banner img-fluid" src="{{ asset('images/') }}/{{ 's-2-l.jpg' }}">
+									<div class="OverlayText py-3">
+										<h5 class="card-title px-2" style="">Location de véhicules</h5>
+										<p class="card-text small px-2">LBM en partenariat avec SIXT Location de voitures dispose des solutions à vos problèmes de mobilité à travers une flotte de véhicules de haut standing.</p>
+											<a href="{{ url('/services/location') }}" class="btn float-left" style="color:#fff">Location de véhicules</a>  <a class="btn float-right  text-white"><i class=" fa fa-chevron-right "></i></a>
+
+									</div>
+								</div>
+							</a>
+						</div>
+						<!--div class="clearfix col-lg-4 col-md-6 px-0">
 
 							<a target="_blank" href="https://canalcombenin.com" class="text-white">
 								<div class="fixOverlayDiv clearfix">
@@ -270,11 +283,17 @@
 									</div>
 								</div>
 							</a>
-						</div>
+						</div-->
 
 						<div class="clearfix col-lg-8 col-md-6 px-0 d-flex justify-content-center align-items-center" style="background-color: #fff">
-
-							<h1 class="" id="canalcomfont" style="color:#1c54b2; font-size:3rem ">Votre communication dans toutes ses facettes</h1> 
+							<div class="row px-md-5">
+								<h1 class="" id="canalcomfont" style="color:#1c54b2; font-size:3rem ">Boost yourself</h1> 
+								<p>
+									Nous prenons des mesures de sécurité, pour vous et pour nous; Face au COVID-19, Lbm-Sixt location de voitures vous protège. Nous mettons un point d'honneur sur le respect des consignes par nos conducteurs. Nos véhicules sont systématiquement désinfectés avant et après chaque mission. Faites-nous confiance ! Votre sécurité, notre préoccupation ! Sixt-Lbm location de voitures, contact 60 60 60 63 - 95160002.
+	
+								</p>
+							</div>
+							<!--h1 class="" id="canalcomfont" style="color:#1c54b2; font-size:3rem ">Votre communication dans toutes ses facettes</h1--> 
 							
 						</div>
 
@@ -358,8 +377,8 @@
 					  <span>Président du Conseil d’Administration</span>
 					  <!--p>Explicabo voluptatem mollitia et repellat</p-->
 					  <div class="social text-white">
-						<a target="_blank" href="https://twitter.com/lbm229"><i class="fa fa-twitter"></i></a>
-						<a  target="_blank" href="https://web.facebook.com/lbm229" ><i class="fa fa-facebook"></i></a>
+						<a target="_blank" href="https://www.linkedin.com/in/valeryalapini/"><i class="fa fa-twitter"></i></a>
+						<a  target="_blank" href="https://web.facebook.com/valery.alapini" ><i class="fa fa-facebook"></i></a>
 						<a target="_blank" href="https://www.youtube.com/channel/UCxt0PV8gMIqpMdpz-_KjVuw/"><i class="fa fa-youtube"></i></a>
 						<a target="_blank" href="https://www.linkedin.com/company/lbm229/"> <i class="fa fa-linkedin"></i> </a>
 					  </div>
