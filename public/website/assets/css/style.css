@@ -146,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar.topbar-scrolled {
-  top: -90px;
+  top: -70px;
 }
 
 #topbar .social-links a {
@@ -172,8 +172,8 @@ h1, h2, h3, h4, h5, h6 {
   background: #1c54b2;
   transition: all 0.5s;
   z-index: 997;
-  padding: 15px 0;
-  top: 90px;
+  padding: 5px 0;
+  top: 70px;
 }
 
 #header.header-transparent {
@@ -520,8 +520,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  margin: 18px 18px 0 0;
-  color: #065e77;
+  margin: 8px 18px 0 0;
+  color: #fff;
 }
 
 .mobile-nav-overly {
