@@ -226,7 +226,7 @@
 								<div class="col-lg-6 col-md-6 clearfix px-0">
 									<a href="{{ url('/services/sav') }}" class="text-white ">
 										<div class="fixOverlayDiv">
-											<img alt="offer banner1" class="category-banner img-fluid" src="{{ asset('images/') }}/{{ 's-3-0-l.jpg' }}">
+											<img alt="offer banner1" class="category-banner img-fluid" src="{{ asset('images/') }}/{{ 's-3-0-l-r.jpg' }}">
 											<div class="OverlayText py-3">
 												<h5 class="card-title px-2" style="">Garage professionnel</h5>
 												<p class="card-text small px-2">Deux Garages professionnels au stand international assurent le service après-vente et la maintenance de vos véhicules.</p>
@@ -240,7 +240,7 @@
 								<div class="col-lg-6 col-md-6 clearfix px-0">
 									<a href="{{ url('/services/vente') }}" class="text-white">
 										<div class="fixOverlayDiv clearfix">
-											<img alt="offer banner1" class="category-banner img-fluid" src="{{ asset('images/') }}/{{ 's-1-l.jpg' }}">
+											<img alt="offer banner1" class="category-banner img-fluid" src="{{ asset('images/') }}/{{ 's-1-l-r.jpg' }}">
 											<div class="OverlayText  py-3">
 												<h5 class="card-title px-2" style="">Accessoires</h5>
 												<p class="card-text small px-2">Nos boutiques vous fournissent, selon les marques, des accessoires automobiles et des lubrifiants d'origine.</p>
