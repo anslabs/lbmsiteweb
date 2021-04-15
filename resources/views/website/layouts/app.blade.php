@@ -42,6 +42,7 @@
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
   <link href="{{ asset('vendors/datatables/dataTables.bootstrap4.min.css') }}" rel="stylesheet">
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 
   <!-- Custom styles for this template-->
 <style>
@@ -269,6 +270,15 @@
                 <div class="form-group">
                   <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Votre message" placeholder="Message"></textarea>
                   <div class="validate"></div>
+                </div>
+
+                <div class="form-group">
+                  
+                  @if(config('services.recaptcha.key'))
+                    <div class="g-recaptcha"
+                        data-sitekey="{{config('services.recaptcha.key')}}">
+                    </div>
+                @endif
                 </div>
 
                 <div class="mb-3">

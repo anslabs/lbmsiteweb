@@ -22,6 +22,7 @@ class MailController extends Controller
             'email'        =>   'required',
             'days'     =>   'required',
             'vehicule'     =>   'required',
+            'g-recaptcha-response' => 'required|recaptcha'
         ]);
 
     // if validation fails
@@ -32,7 +33,7 @@ class MailController extends Controller
         $data = array('nom'=> $request->input('nom'), "tel" => $request->input('tel'), "email" => $request->input('email'), "days" => $request->input('days'), "vehicule" => $request->input('vehicule'));
         Mail::send('emails.maillocation', $data, function($message) use($request){
             $message->to('reservation@lesbagnoles.com', 'Réservation LBM Location')->subject ("Réservation de voiture");
-            $message->from("canalcombenin@gmail.com", $request->input('nom'));
+            $message->from("webmaster@lesbagnoles.com", $request->input('nom'));
             $message->replyTo($request->input('email'), $request->input('nom'));
             $message->cc("contacts@lesbagnoles.com", "LBM Réservation");
             $message->cc("cgansey@lesbagnoles.com", "LBM Réservation");
@@ -60,7 +61,7 @@ class MailController extends Controller
         $data = array('nom'=> $request->input('nom'), "mail" => $request->input('mail'), "body" => $request->input('message'),);
         Mail::send('emails.mail', $data, function($message) use($request){
             $message->to('contacts@lesbagnoles.com', 'LBM')->subject ($request->input('subject'));
-            $message->from($request->input('mail'), $request->input('nom'));
+            $message->from("webmaster@lesbagnoles.com", $request->input('nom'));
             $message->replyTo($request->input('mail'), $request->input('nom'));
             $message->cc("info@canalcombenin.com", "CanalCom");
             $message->cc("ibanjun@lesbagnoles.com", "LBM Info");
