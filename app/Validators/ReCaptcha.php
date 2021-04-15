@@ -1,5 +1,5 @@
 <?php
-namespace App\Providers\Validators;
+namespace App\Validators;
 use GuzzleHttp\Client;
 class ReCaptcha
 {
