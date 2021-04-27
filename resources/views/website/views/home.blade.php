@@ -427,19 +427,18 @@
 
 							Il est impérieux d’adopter les bonnes pratiques et de mettre en application les mesures de prévention afin de limiter la propagation de cette pandémie.
 
-							Appliquons-nous au quotidien à :
+							Appliquons-nous au quotidien à :<br>
 							- Laver fréquemment et soigneusement les mains à l’eau et au savon ou avec une solution hydro-alcoolique ;
-
+							<br>
 							- Tousser ou éternuer dans le creux du coude ou dans un mouchoir et le jeter immédiatement ;
-
+							<br>
 							- Saluer sans se serrer la main, sans accolades et sans embrassades ;
-
+							<br>
 							- Respecter une distance d’au moins un mètre entre les personnes ;
-
+							<br>
 							- Protégez-vous la bouche et le nez avec un masque ;
-
+							<br>
 							Ce sont des gestes simples qui sauvent  des vies.
-
 							Ensemble, protégeons-nous et protégeons les autres.
 
 					</p>
