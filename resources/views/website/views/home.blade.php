@@ -422,9 +422,7 @@
 				<div class="col-md-8 clo-lg-7 pr-3 pt-4">
 					<h1>Message de la <a target="_blank" href="https://web.facebook.com/fondationlbm/" class="text-white">Fondation LBM</a></h1>
 					<p class="">
-						Nous prenons des mesures de sécurité, pour vous et pour nous; Face au COVID-19, Lbm-Sixt location de voitures vous protège. Nous mettons un point d'honneur sur le respect des consignes par nos conducteurs. Nos véhicules sont systématiquement désinfectés avant et après chaque mission. Faites-nous confiance ! Votre sécurité, notre préoccupation ! Sixt-Lbm location de voitures, contact 60 60 60 63 - 95160002. 
-
-						Barrons la voie au CORONAVIRUS ! <hr>
+						Barrons la voie au CORONAVIRUS ! <br>
 						La COVID-19 est extrêmement contagieuse et se propage toujours dans notre pays.
 
 							Il est impérieux d’adopter les bonnes pratiques et de mettre en application les mesures de prévention afin de limiter la propagation de cette pandémie.
