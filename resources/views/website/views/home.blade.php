@@ -377,10 +377,10 @@
 					  <span>Président du Conseil d’Administration</span>
 					  <!--p>Explicabo voluptatem mollitia et repellat</p-->
 					  <div class="social text-white">
-						<a target="_blank" href="https://www.linkedin.com/in/valeryalapini/"><i class="fa fa-twitter"></i></a>
-						<a  target="_blank" href="https://web.facebook.com/valery.alapini" ><i class="fa fa-facebook"></i></a>
+						<a target="_blank" href="https://twitter.com/lbm229"><i class="fa fa-twitter"></i></a>
+						<a  target="_blank" href="https://web.facebook.com/osvaleryalapini/" ><i class="fa fa-facebook"></i></a>
 						<a target="_blank" href="https://www.youtube.com/channel/UCxt0PV8gMIqpMdpz-_KjVuw/"><i class="fa fa-youtube"></i></a>
-						<a target="_blank" href="https://www.linkedin.com/company/lbm229/"> <i class="fa fa-linkedin"></i> </a>
+						<a target="_blank" href="https://www.linkedin.com/in/valeryalapini/"> <i class="fa fa-linkedin"></i> </a>
 					  </div>
 					</div>
 				  </div>
