@@ -89,10 +89,10 @@
       <div class="d-flex align-items-center">
         <div class="row">
           <div class="col-12">
-            <span id="" class=" text-white ml-3" style=" font-size: x-large; font-style: italic;">Notre passion vous transporte</span>
+            <span id="" class=" text-white ml-3" id ="slogan" style=" font-size: x-large; font-style: italic;">Notre passion vous transporte</span>
           </div>
           <div class="col-12">
-            <span id="" class=" text-white ml-3" style="font-size: medium; font-style: italic;">Première société automobile certifiée ISO 9001 au Bénin</span>
+            <span id="" class=" text-white ml-3" id ="iso" style="font-size: medium; font-style: italic;">Première société automobile certifiée ISO 9001 au Bénin</span>
           </div>
   
         </div>
