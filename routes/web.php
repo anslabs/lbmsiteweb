@@ -21,6 +21,10 @@ use Illuminate\Support\Facades\Route;
 //Auth::routes();
 Auth::routes(['register' => false]);
 
+Route::get('uploadlogotest', 'AccueilImageController@createtest');
+Route::post('uploadlogotest', 'AccueilImageController@storetest');
+
+
 Route::get('/home', 'HomeController@index')->name('home')->middleware('auth');
 
 ///email

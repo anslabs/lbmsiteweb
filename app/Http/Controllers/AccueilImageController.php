@@ -28,6 +28,11 @@ class AccueilImageController extends Controller
         return view('accueil_image_form');
     }
 
+    public function createtest()
+    {
+        return view('logo_image_form');
+    }
+
     /**
      * Store a newly created resource in storage.
      *
@@ -49,6 +54,26 @@ class AccueilImageController extends Controller
         $videoSectionUn->save();
             return redirect()->back()->with('success', 'Enregistrer');
       
+    }    
+    public function storetest(Request $request)
+    {
+        $file = $request->file('image');
+ 
+        //dd($file);
+
+       // $path = $file->store('logos');
+
+      
+       $path = $file->store('logos', 's3');
+        return $path;
+   
+        /*
+        $s3 = App::make('aws')->createClient('s3');
+        $s3->putObject(array(
+            'SourceFile' => $file,
+        ));
+        return $path;
+        */
     }
 
     /**
