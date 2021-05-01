@@ -84,12 +84,16 @@
   <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top">
     <div class="container d-flex ">
       <div class="d-flex pr-3">
-        <img class="img-fluid" style="max-height:90px;" src="{{ asset('images/') }}/{{ 'logo0.png' }}"/>
+        <img class="img-fluid" id = "topbar-logo" style="" src="{{ asset('images/') }}/{{ 'logo0.png' }}"/>
       </div>
       <div class="d-flex align-items-center">
         <div class="row">
-          <span id="" class=" text-white ml-3" style=" font-size: x-large; font-style: italic;">Notre passion vous transporte</span>
-          <span id="" class=" text-white ml-3" style="font-size: medium; font-style: italic;">Première société automobile certifiée ISO 9001 au Bénin</span>
+          <div class="col-12">
+            <span id="" class=" text-white ml-3" style=" font-size: x-large; font-style: italic;">Notre passion vous transporte</span>
+          </div>
+          <div class="col-12">
+            <span id="" class=" text-white ml-3" style="font-size: medium; font-style: italic;">Première société automobile certifiée ISO 9001 au Bénin</span>
+          </div>
   
         </div>
       </div>
