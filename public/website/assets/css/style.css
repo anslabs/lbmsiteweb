@@ -146,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar.topbar-scrolled {
-  top: -70px;
+  top: -90px;
 }
 
 #topbar .social-links a {
@@ -236,7 +236,7 @@ h1, h2, h3, h4, h5, h6 {
   overflow-y: auto;
 }
 #topbar-logo{
-  max-height:90px;
+  max-height:70px;
 }
 
 @media (max-width: 1024px) {
