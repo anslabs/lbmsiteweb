@@ -132,9 +132,6 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #topbar {
   background: #1c54b2;/*#ff3d00*/
- /*height: 40px;*/
- padding-top: 8px;
- padding-bottom: 8px;
   font-size: 16px;
   transition: all 0.5s;
   border-bottom: 5px solid #fff;
