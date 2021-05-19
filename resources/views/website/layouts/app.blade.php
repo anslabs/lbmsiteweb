@@ -226,7 +226,7 @@
 					  <a href="https://canalcombenin.com" target="_blank"><h4>Service communication</h4></a>
 					  <p>Scoa-Gbéto, carrefour LBM <br>
               01 bp 7144 Cotonou, Bénin<br> 
-						<strong>Tél:</strong> +229 21300050 - 95953210<br>
+						<strong>Tél:</strong> +229 21300050 - 95160002<br>
 						<strong>Email:</strong>communication@lesbagnoles.com<br>
 					  </p>
 					</div>
