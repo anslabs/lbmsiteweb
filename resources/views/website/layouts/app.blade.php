@@ -200,12 +200,18 @@
 					</div>
                 </div>
 
-                <div class="footer-newsletter">
-                  <h4>News Letter</h4>
-                  <form action="{{ url('/') }}/api/apiSuscribed" method="post">
-                    <input type="email" name="email"><input type="submit" value="M'inscrire">
-                  </form>
-                </div>
+                <div class="footer-info">
+                  <div class="footer-links">
+                    <h4>Ressources humaines</h4>
+                    <p>Scoa-Gbéto, carrefour LBM <br>
+                      01 bp 7144 Cotonou, Bénin<br> 
+                    <strong>Tél:</strong> +229 95621212<br>
+                    <strong>Email:</strong> recrutement@lesbagnoles.com<br>
+                    </p>
+                  </div>
+                        </div>
+
+
 
               </div>
 
@@ -243,6 +249,13 @@
             <a style="background-color:#c32aa3" target="_blank" href="https://www.instagram.com/lbm229/" class="linkedin"><i class="fa fa-instagram"></i></a>
             <span class="text-white">lbm229</span>
 					</div>
+                </div>
+
+                <div class="footer-newsletter">
+                  <h4>News Letter</h4>
+                  <form action="{{ url('/') }}/api/apiSuscribed" method="post">
+                    <input type="email" name="email"><input type="submit" value="M'inscrire">
+                  </form>
                 </div>
 
 
