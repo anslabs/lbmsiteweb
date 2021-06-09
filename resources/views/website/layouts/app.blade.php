@@ -285,7 +285,7 @@
                   <div class="validate"></div>
                 </div>
                 <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Votre message" placeholder="Message"></textarea>
+                  <textarea class="form-control" name="message" rows="6" data-rule="required" data-msg="Votre message" placeholder="Message"></textarea>
                   <div class="validate"></div>
                 </div>
 
