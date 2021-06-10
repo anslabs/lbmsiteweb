@@ -36,7 +36,7 @@ class MailController extends Controller
             $message->from("webmaster@lesbagnoles.com", $request->input('nom'));
             $message->replyTo($request->input('email'), $request->input('nom'));
             $message->cc("contacts@lesbagnoles.com", "LBM Réservation");
-            $message->cc("cgansey@lesbagnoles.com", "LBM Réservation");
+            $message->cc("amonhou@lesbagnoles.com", "LBM Réservation");
             $message->cc("ibanjun@lesbagnoles.com", "LBM Réservation");
             $message->cc("dg@lesbagnoles.com", "LBM Réservation");
             $message->cc("ebonou@lesbagnoles.com", "LBM Réservation");
