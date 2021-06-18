@@ -195,7 +195,7 @@
 					  <p>Scoa-Gbéto, carrefour LBM <br>
               01 bp 7144 Cotonou, Bénin<br> 
 						<strong>Tél:</strong> +229 21310002 -  60606001 - 60606063<br>
-						<strong>Email:</strong> contacts@lesbagnoles.com<br>
+						<strong>Email:</strong> location@lesbagnoles.com<br>
 					  </p>
 					</div>
                 </div>
@@ -222,7 +222,7 @@
 					  <p>Akpakpa Pk3 route de Porto-novo <br>
               01 bp 7144 Cotonou, Bénin<br> 
 						<strong>Tél:</strong> +229 21334040 - 95955131 - 60606086<br>
-						<strong>Email:</strong>  contacts@lesbagnoles.com<br>
+						<strong>Email:</strong> serviceapresvente@lesbagnoles.com<br>
 					  </p>
 					</div>
         </div>
