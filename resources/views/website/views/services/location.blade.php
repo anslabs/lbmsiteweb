@@ -84,7 +84,7 @@
 			<div class="row">
 
 				@foreach($vehicles as $new_vehicles)
-				<div class="col-md-4 col-lg-4 d-inline-block p-1" >
+				<div class="col-md-4 col-lg-3 d-inline-block p-1" >
 					<img src="{{ asset('locations/') }}/{{ $new_vehicles->image1 }}" alt="{{ $new_vehicles->model }}" class="img-fluid img-h-100" />
 					<p><a href="#" class="small">{{ $new_vehicles->model }}</a><br>
                     <Span class="small"> <strong>{{ $new_vehicles->name_marque }}</strong> </span><br/>
