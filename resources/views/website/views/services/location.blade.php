@@ -76,6 +76,19 @@
 				<p>Réservez toute suite en ligne ou contactez-nous directement par téléphone.</p>
 			</div>
 	
+			<div class="row">
+				<h3 style="font-weight:bold;">Notre flotte</h3>
+
+				@foreach($vehicles as $new_vehicles)
+				<div class="col-md-4 col-lg-4 d-inline-block p-1" >
+					<img src="{{ asset('locations/') }}/{{ $new_vehicles->image1 }}" alt="{{ $new_vehicles->model }}" class="img-fluid img-h-100" />
+					<p><a href="#" class="small">{{ $new_vehicles->model }}</a><br>
+                    <Span class="small"> <strong>{{ $new_vehicles->name_marque }}</strong> </span><br/>
+                </div>			  
+				@endforeach	
+			
+			</div>
+	
         	<div class="row">
 			<h3 style="font-weight:bold;"><a target ="_blank" href="https://www.sixt.global/car-rental/benin">Réserver une voiture en location</a></h3>
 

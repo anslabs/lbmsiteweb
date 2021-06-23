@@ -89,7 +89,6 @@ class HomeController extends Controller
         ->select('vehicules.*', 'marques.name as name_marque', 'marques.id as id_marque')
 
         ->get();
-        
         return view('website.views.services.vente',compact(['vehicles', 'marques']));
     }
     public function venteparmarque($idmarque)
@@ -113,11 +112,9 @@ class HomeController extends Controller
 
         $marques = DB::table('marques')->select("*")->get();
         
-        $vehicles =  DB::table('vehicules')
-        ->join('marques', 'marques.id', '=', 'vehicules.marque')->orderBy('vehicules.created_at', 'desc')
-        ->select('vehicules.*', 'marques.name as name_marque', 'marques.id as id_marque')
-        ->get();
-        
+        $vehicles =  DB::table('locations')
+        ->join('marques', 'marques.id', '=', 'locations.marque')->orderBy('locations.created_at', 'desc')
+        ->select('locations.*', 'marques.name as name_marque')->get();
         return view('website.views.services.location',compact(['vehicles', 'marques', 'bg']));
     }
 

@@ -60,7 +60,7 @@
                         </div>
 
                         <div class="form-group" {{ $errors->has('price') ? 'has-error' : '' }}>
-                            <label for="price">Prix</label>
+                            <label for="price">Prix/Jour</label>
                             <input type="number" class="form-control" id="price" name="price" aria-describedby="priceHelp" placeholder="price" required>
                             <span class="text-danger"> {{ $errors->first('price') }}</span>
                         </div>
