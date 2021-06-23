@@ -46,16 +46,16 @@ Route::resource('pilotevideo', 'VideoPiloteController')->middleware('auth');
 
 Route::resource('newsletter','NewsletterController');
 
-Route::resource('accessoiresimage', 'AccessoiresImageController')->name('admin')->middleware('auth');
-Route::resource('accueilimage', 'AccueilImageController')->name('admin')->middleware('auth');
-Route::resource('aproposimage', 'AproposImageController')->name('admin')->middleware('auth');
-Route::resource('locationimage', 'LocationImageController')->name('admin')->middleware('auth');
-Route::resource('savimage', 'SavImageController')->name('admin')->middleware('auth');
-Route::resource('venteimage', 'VenteImageController')->name('admin')->middleware('auth');
+Route::resource('accessoiresimage', 'AccessoiresImageController')->middleware('auth');
+Route::resource('accueilimage', 'AccueilImageController')->middleware('auth');
+Route::resource('aproposimage', 'AproposImageController')->middleware('auth');
+Route::resource('locationimage', 'LocationImageController')->middleware('auth');
+Route::resource('savimage', 'SavImageController')->middleware('auth');
+Route::resource('venteimage', 'VenteImageController')->middleware('auth');
 
-Route::resource('vehicule', 'VehiculeController')->name('admin')->middleware('auth');
-Route::resource('location', 'LocationController')->name('admin')->middleware('auth');
-Route::resource('marque', 'MarqueController')->name('admin')->middleware('auth');
+Route::resource('vehicule', 'VehiculeController')->middleware('auth');
+Route::resource('location', 'LocationController')->middleware('auth');
+Route::resource('marque', 'MarqueController')->middleware('auth');
 Route::get('/admin', 'AdminController@index')->name('admin')->middleware('auth');
 
 //Route::post('newsletter','NewsletterController@store');
