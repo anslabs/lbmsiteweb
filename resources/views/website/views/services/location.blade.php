@@ -77,7 +77,11 @@
 			</div>
 	
 			<div class="row">
-				<h3 style="font-weight:bold;">Notre flotte</h3>
+				<h3 style="font-weight:bold;">Notre flotte de location</h3>
+
+			
+			</div>	
+			<div class="row">
 
 				@foreach($vehicles as $new_vehicles)
 				<div class="col-md-4 col-lg-4 d-inline-block p-1" >
