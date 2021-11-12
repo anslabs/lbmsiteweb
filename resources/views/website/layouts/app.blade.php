@@ -181,7 +181,7 @@
                 <div class="footer-info">
 					<div class="footer-links">
 					  <h4>Contactez-nous</h4>
-            <h5>Vente de véhicules</h5>
+            <h4>Vente de véhicules</h4>
 					  <p>Scoa-Gbéto, carrefour LBM <br>
               01 bp 7144 Cotonou, Bénin<br> 
 						<strong>Tél:</strong> +229 21310002 -  95953890 - 95958824<br>
