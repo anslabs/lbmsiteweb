@@ -301,7 +301,7 @@
 
                 <div class="mb-3">
                   <div class="loading">Loading</div>
-                      <div class="error-message">Une erreur s'est produite</div>
+                      <div class="error-message">Une erreur s'est produite </div>
                       <div class="sent-message alert alert-success alert-dismissible fade show"  role="alert">
                         Votre message a été envoyé, nous vous reviendrons dans les plus brefs délais!
                     	<button type="button" class="close" data-dismiss="alert" aria-label="Close">
