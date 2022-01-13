@@ -2,6 +2,7 @@
 <html lang="fr">
 
 <head>
+<link rel="shortcut icon" href="images/Off logo LBM couleur.png">
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,8 +11,6 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    
-    <link rel="shortcut icon" href="images/Off logo LBM couleur.png">
 
     <title>Les Bagnoles Motors - Automobile</title>
 
