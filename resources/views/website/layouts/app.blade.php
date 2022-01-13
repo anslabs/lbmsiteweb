@@ -10,6 +10,8 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    
+    <link rel="shortcut icon" href="images/Off logo LBM couleur.png">
 
     <title>Les Bagnoles Motors - Automobile</title>
 
@@ -59,7 +61,6 @@
 }
 }
 </style>
-<link rel="shortcut icon" href="Off logo LBM couleur.png" />
 </head>
 
 <body id="page-top">
