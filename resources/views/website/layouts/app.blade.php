@@ -2,7 +2,7 @@
 <html lang="fr">
 
 <head>
-<link rel="shortcut icon" href="images/Off logo LBM couleur.png">
+  <link rel="icon" href="{{ URL::asset('/css/Off logo LBM couleur.png') }}" type="image/x-icon"/>
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
