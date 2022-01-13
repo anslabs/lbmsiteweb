@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="fr">
 
 <head>
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <title>@yield('title')</title>
+      <title>LBM S.A. - Site officiel</title>
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>Les Bagnoles Motors - Automobile</title>
 
 
 
@@ -59,6 +59,7 @@
 }
 }
 </style>
+<link rel="shortcut icon" href="Off logo LBM couleur.png" />
 </head>
 
 <body id="page-top">
@@ -195,7 +196,7 @@
 					  <h4>Service Location</h4>
 					  <p>Scoa-Gbéto, carrefour LBM <br>
               01 bp 7144 Cotonou, Bénin<br> 
-						<strong>Tél:</strong> +229 99996666 -  60606098 - 95958824<br>
+						<strong>Tél:</strong> +229 99996666 -  60606098 - 95436060<br>
 						<strong>Email:</strong> reservation@lesbagnoles.com<br>
 					  </p>
 					</div>
@@ -233,7 +234,7 @@
 					  <a href="https://canalcombenin.com" target="_blank"><h4>Service communication</h4></a>
 					  <p>Scoa-Gbéto, carrefour LBM <br>
               01 bp 7144 Cotonou, Bénin<br> 
-						<strong>Tél:</strong> +229 21300050 - 95160002<br>
+						<strong>Tél:</strong> +229 21300050 - 95160002 - 95436060<br>
 						<strong>Email:</strong>communication@lesbagnoles.com<br>
 					  </p>
 					</div>
