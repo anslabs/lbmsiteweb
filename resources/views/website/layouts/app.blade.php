@@ -111,7 +111,7 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
       <div clas="navbar-brand"id="navbrand" style = "visibility: hidden;">
-        <h1 class="logo mr-auto "><a href="{{ url('/') }}"><img class="img-responsive" src="{{ asset('images/') }}/{{ 'logocert.png' }}" style=""/></a></h1>
+        <h1 class="logo mr-auto "><a href="{{ url('/') }}"><img class="img-responsive" src="{{ asset('images/') }}/{{ 'Off logo LBM couleur blanc.png' }}" style=""/></a></h1>
       </div>
       <nav class="main-nav d-none d-lg-block ">
         <ul class="">
@@ -127,9 +127,9 @@
           </li>
           <!--li><a href="{{ url('/#medias') }}">Actualité</a></li-->
           <li><a target="_blank" href="https://web.facebook.com/fondationlbm/">Fondation LBM</a></li>
-          <li><a href="{{ url('/services/accessoireautomobile') }}">Accessoires Automobile</a></li>
+          
           <!--li><a href="https://canalcombenin.com" target="_blank">Régie publicitaire</a></li-->
-          <li><a href="{{ url('/services/sav') }}">SAV</a></li>
+          
           <!--li><a href="{{ url('/services/accessoireautomobile') }}">Accessoires Automobile</a></li-->
 
           <li><a href="#footer">Contacts</a></li>
