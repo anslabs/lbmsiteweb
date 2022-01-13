@@ -13,7 +13,8 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>Les Bagnoles Motors - Automobile</title>
-    <link rel="shortcut icon" href="images/Off logo LBM couleur.png" />
+    <link rel="icon" href="{{ URL::asset('/css/Off logo LBM couleur.png') }}" type="image/x-icon"/>
+   
 
 
 
@@ -86,7 +87,7 @@
   <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top">
     <div class="container d-flex ">
       <div class="d-flex pr-3">
-        <img class="img-fluid" id = "topbar-logo" style="" src="{{ asset('images/') }}/{{ 'logo0.png' }}"/>
+        <img class="img-fluid" id = "topbar-logo" style="" src="{{ asset('images/') }}/{{ 'Off logo LBM couleur blanc.png' }}"/>
       </div>
       <div class="d-flex align-items-center">
         <div class="row">
@@ -100,7 +101,7 @@
         </div>
       </div>
         <!--div class="contact-info mr-auto">
-          <img class="img-fluid" style="max-height:90px;" src="{{ asset('images/') }}/{{ 'logo0.png' }}"/>
+          <img class="img-fluid" style="max-height:90px;" src="{{ asset('images/') }}/{{ 'Off logo LBM couleur blanc.png' }}"/>
           <span class=" text-white ml-3" style=" font-size:1.5rem; font-style: italic;">Première entreprise automobile certifiée ISO 9001 au Bénin</span>
         </div-->
     </div> 
@@ -120,6 +121,8 @@
             <ul>
               <li><a href="{{ url('/services/vente') }}">Vente automobile</a></li>
               <li><a href="{{ url('/services/location') }}">Location automobile</a></li>
+              <li><a href="{{ url('/services/sav') }}">Service Après Vente - SAV</a></li>
+              <li><a href="{{ url('/services/accessoireautomobile') }}">Accessoires Automobile</a></li>
             </ul>
           </li>
           <!--li><a href="{{ url('/#medias') }}">Actualité</a></li-->
