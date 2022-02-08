@@ -200,7 +200,7 @@
 					  <h4>Service Location</h4>
 					  <p>Scoa-Gbéto, carrefour LBM <br>
               01 bp 7144 Cotonou, Bénin<br> 
-						<strong>Tél:</strong> +229 99996666 -  60606098 - 95436060<br>
+						<strong>Tél:</strong> +229 99996666 -  60606098 - 95436060 - 60 60 60 01<br>
 						<strong>Email:</strong> reservation@lesbagnoles.com<br>
 					  </p>
 					</div>
@@ -238,7 +238,7 @@
 					  <a href="https://canalcombenin.com" target="_blank"><h4>Service communication</h4></a>
 					  <p>Scoa-Gbéto, carrefour LBM <br>
               01 bp 7144 Cotonou, Bénin<br> 
-						<strong>Tél:</strong> +229 21300050 - 95160002 - 95436060<br>
+						<strong>Tél:</strong> +229 21300050 - 95160002 - 95436060 - 60 60 60 01<br>
 						<strong>Email:</strong>communication@lesbagnoles.com<br>
 					  </p>
 					</div>
