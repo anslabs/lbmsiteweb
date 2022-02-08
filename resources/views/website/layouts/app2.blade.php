@@ -136,7 +136,7 @@
 					  <h4>Service Location</h4>
 					  <p>Scoa-gbeto<br>
 						Cotonou, Bénin<br> 
-						<strong>Tél:</strong> +229 21310002 - 95160002  - 60606063<br>
+						<strong>Tél:</strong> +229 21310002 - 95160002  - 60606063 - 60 60 60 01<br>
 						<strong>Email:</strong> contacts@lesbagnoles.com<br>
 					  </p>
 					</div>
@@ -168,7 +168,7 @@
 					  <a href="https://canalcombenin.com" target="_blank"><h4>Service communication</h4></a>
 					  <p>Scoa-gbeto<br>
 						Cotonou, Bénin<br> 
-						<strong>Tél:</strong> +229 21300050 - 95160002 - 95953210<br>
+						<strong>Tél:</strong> +229 21300050 - 95160002 - 95953210 - 60 60 60 01<br>
 						<strong>Email:</strong> communication@canalcombenin.com<br>
 					  </p>
 					</div>
